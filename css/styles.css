@@ -630,11 +630,6 @@ address {
   margin-bottom: 16px;
 }
 
-.modal-form-label span {
-  display: inline-block;
-  margin-bottom: 4px;
-}
-
 .modal-form-label {
   color: #8e8f99;
   font-size: 12px;
