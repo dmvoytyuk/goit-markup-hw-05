@@ -517,7 +517,10 @@ address {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 0 16px 0 16px;
   color: #ffffff;
-  /* outline: none; */
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-form-input::placeholder {
@@ -528,11 +531,10 @@ address {
 }
 
 .footer-form-btn {
-  display: inline-flex;
+  min-width: 165px;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   background: #4d5ae5;
   border: none;
@@ -541,7 +543,7 @@ address {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04px;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -552,6 +554,7 @@ address {
 
 .footer-form-btn-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 .backdrop {
