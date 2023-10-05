@@ -711,8 +711,18 @@ address {
   letter-spacing: 0.04em;
 }
 
-.modal-form-checkbox {
-  margin-right: 8px;
+.modal-form-checkbox-sim {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-checkbox-wrap {
@@ -720,22 +730,22 @@ address {
   margin-bottom: 24px;
 }
 
-.form-checkbox-icon-normal {
+/* .form-checkbox-icon-normal {
   position: absolute;
   left: 0;
   top: 50%;
   fill: none;
   stroke: rgba(46, 47, 66, 0.4);
   transform: translateY(-50%);
-}
+} */
 
-.form-checkbox-icon-click {
+/* .form-checkbox-icon-click {
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
   visibility: hidden;
-}
+} */
 
 .modal-form-checkbox:checked + label > svg {
   visibility: visible;
