@@ -33,7 +33,7 @@ ol {
 
 .container {
   /* outline: 1px solid red; */
-  min-width: 320px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
