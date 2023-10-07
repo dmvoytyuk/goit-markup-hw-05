@@ -558,6 +558,8 @@ address {
 
 .backdrop {
   visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -738,6 +740,8 @@ address {
 
 .is-open {
   visibility: visible;
+  opacity: 100%;
+  pointer-events: all;
 }
 
 .user-privacy {
